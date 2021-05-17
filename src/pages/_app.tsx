@@ -7,12 +7,7 @@ import { RecoilRoot } from 'recoil'
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider>
-      <RecoilRoot>
         <Head>
-          <link
-            href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap"
-            rel="stylesheet"
-          />
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -49,7 +44,6 @@ export default function MyApp({ Component, pageProps }: AppProps) {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Component {...pageProps} />
-      </RecoilRoot>
     </ChakraProvider>
   )
 }

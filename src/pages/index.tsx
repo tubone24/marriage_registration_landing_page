@@ -1,15 +1,16 @@
 import Hero from 'src/components/hero'
 import Footer from 'src/components/footer'
 import GridList from 'src/components/gridList'
-// import SpeechBubble from 'src/components/speechBubble'
+import Example from "../components/example";
 import WithLargeQuote from 'src/components/quote'
-import NameForm from 'src/components/nameForm'
+import Pdf from 'src/components/pdf'
 
 const HomePage = (): JSX.Element => (
   <>
     <Hero />
     <GridList />
-    <NameForm />
+    <Example />
+    <Pdf />
     <WithLargeQuote />
     {/*<SpeechBubble />*/}
     <Footer />
