@@ -14,7 +14,6 @@ const Pdf = (): JSX.Element => {
       minH={'100vh'}
       align={'center'}
       justify={'center'}
-      px={6}
       bg={useColorModeValue('gray.50', 'gray.800')} bgGradient="linear(to-r, gray.200, pink.500)">
       <Stack spacing={6} w={'full'} maxW={'lg'}>
       <Text color={'gray.600'} p={6} fontSize={'lg'} fontFamily={'Hachi Maru Pop'} >
@@ -44,7 +43,7 @@ const Pdf = (): JSX.Element => {
       <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.6.347/build/pdf.worker.js">
         <div style={{
           height: '750px',
-          width: '1200px',
+          width: '1000px',
           marginLeft: 'auto',
           marginRight: 'auto',
         }}>
