@@ -2,7 +2,6 @@ import { AppProps } from 'next/app'
 import Head from 'next/head'
 import * as React from 'react'
 import { ChakraProvider } from '@chakra-ui/react'
-import { RecoilRoot } from 'recoil'
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
