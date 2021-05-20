@@ -25,7 +25,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
             property="og:url"
             content="https://marriage-registration-landing-page.vercel.app/"
           />
-          <meta property="og:image" content="https://i.imgur.com/M2PhISt.png" />
+          <meta property="og:image" content="https://i.imgur.com/PXDvU3s.png" />
           <meta property="og:site_name" content="GitHub婚姻届" />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@meitante1conan" />
@@ -38,10 +38,10 @@ export default function MyApp({ Component, pageProps }: AppProps) {
             name="twitter:description"
             content="This template implements Next.js with TypeScript, uses ChakraUI for CSS, uses Jest for testing, StoryBook for cataloging components, and Recoil for state management by tubone24."
           />
-          <meta name="twitter:image" content="https://i.imgur.com/M2PhISt.png" />
+          <meta name="twitter:image" content="https://i.imgur.com/PXDvU3s.png" />
           <meta property="fb:app_id" content="280941406476272" />
           <link rel="canonical" href="ttps://marriage-registration-landing-page.vercel.app/" />
-          <link rel="apple-touch-icon" href={'https://i.imgur.com/M2PhISt.png'} />
+          <link rel="apple-touch-icon" href={'https://i.imgur.com/PXDvU3s.png'} />
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Component {...pageProps} />
