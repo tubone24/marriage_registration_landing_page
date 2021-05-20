@@ -34,5 +34,5 @@ jobs:
         run: yarn typecheck
       - name: format check
         run: yarn format:check
-      - name: test
-        run: yarn test
+#      - name: test
+#        run: yarn test

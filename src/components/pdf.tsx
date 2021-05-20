@@ -14,7 +14,7 @@ const Pdf = (): JSX.Element => {
       minH={'100vh'}
       align={'center'}
       justify={'center'}
-      bg={useColorModeValue('gray.50', 'gray.800')} bgGradient="linear(to-r, pink.200, pink.500)">
+      bg={useColorModeValue('gray.50', 'gray.800')} bgGradient="linear(to-r, gray.200, pink.500)">
       <Stack spacing={6} w={'full'} maxW={'lg'}>
       <Text color={'gray.600'} p={6} fontSize={'lg'} fontFamily={'Hachi Maru Pop'} >
         婚姻届も継続的インテグレーション・デリバリーしたい！ <br /><br />
@@ -23,6 +23,7 @@ const Pdf = (): JSX.Element => {
         そんな悩みを解決します！
       </Text>
           <Stack direction={{ base: 'column', md: 'row' }} spacing={4} p={6}>
+              <a href="https://github.com/tubone24/marriage_registration/fork">
               <Button
                   rounded={'full'}
                   bg={'blue.400'}
@@ -33,7 +34,10 @@ const Pdf = (): JSX.Element => {
                   }}>
                   Create your marriage registration!!
               </Button>
+              </a>
+              <a href="https://github.com/tubone24/marriage_registration">
               <Button rounded={'full'} fontFamily={'Nanum Pen Script'}>Looking out!!</Button>
+              </a>
           </Stack>
       </Stack>
       <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.6.347/build/pdf.worker.js">
