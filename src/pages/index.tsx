@@ -7,9 +7,8 @@ import Pdf from 'src/components/pdf'
 
 const HomePage = (): JSX.Element => (
   <>
-    <Hero />
-    <GridList />
-    <Example />
+    {/*<Hero />*/}
+    {/*<Example />*/}
     <Pdf />
     <WithLargeQuote />
     {/*<SpeechBubble />*/}

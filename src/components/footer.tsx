@@ -43,18 +43,6 @@ const SocialButton = ({
 }
 
 export default function SmallWithSocial() {
-  const [lastSync, setLastSync] = useState('')
-  useEffect(() => {
-    getLastSync()
-  }, [])
-  const getLastSync = () => {
-    fetch('/api/hello')
-      .then(
-      (response) => response.text())
-      .then((responseText) => {
-        setLastSync(responseText)
-      })
-  }
   return (
     <Box
       bg={useColorModeValue('gray.50', 'gray.900')}
@@ -69,7 +57,7 @@ export default function SmallWithSocial() {
         justify={{ base: 'center', md: 'space-between' }}
         align={{ base: 'center', md: 'center' }}
       >
-        <Text>© {lastSync} tubone24. All rights reserved</Text>
+        <Text>© 2021 tubone24. All rights reserved</Text>
         <Stack direction={'row'} spacing={6}>
           <SocialButton label={'Twitter'} href={'https://twitter.com/meitante1conan'}>
             <FaTwitter />

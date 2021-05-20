@@ -8,14 +8,17 @@ export default function WithLargeQuote() {
       px={8}
       spacing={{ base: 8, md: 10 }}
       align={'center'}
-      direction={'column'}>
+      direction={'column'}
+      fontFamily={'Hachi Maru Pop'}>
       <Text
         fontSize={{ base: 'xl', md: '2xl' }}
         textAlign={'center'}
         maxW={'3xl'}>
-        I've had more and more opportunities to create everything with Next.js,
-        but it's getting to be a hassle to modify the project from create-next-app to my liking every time.
-        So I decided to create a template to speed up the development process.
+        ちょっと口下手なあなた。気になる人に婚姻届を出しましょう！<br />
+        このギットハブのレポジトリをフォークして<br />
+        コンフィグにあなたの情報を書いてプルリクするだけ。<br />
+        ギットハブアクションズが回って、<br />
+        あっという間に婚姻届ができちゃう。<br />
       </Text>
       <Box textAlign={'center'}>
         <Avatar
@@ -28,7 +31,7 @@ export default function WithLargeQuote() {
 
         <Text fontWeight={600}>tubone24</Text>
         <Text fontSize={'sm'} color={useColorModeValue('gray.400', 'gray.400')}>
-          Rubbish Engineer
+          Single Engineer
         </Text>
       </Box>
     </Stack>
