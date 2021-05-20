@@ -14,6 +14,7 @@ const Pdf = (): JSX.Element => {
       minH={'100vh'}
       align={'center'}
       justify={'center'}
+      px={6}
       bg={useColorModeValue('gray.50', 'gray.800')} bgGradient="linear(to-r, gray.200, pink.500)">
       <Stack spacing={6} w={'full'} maxW={'lg'}>
       <Text color={'gray.600'} p={6} fontSize={'lg'} fontFamily={'Hachi Maru Pop'} >
