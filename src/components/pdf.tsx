@@ -1,6 +1,6 @@
 import {
     useColorModeValue,
-    Flex, Text, Stack, Button,
+    Flex, Text, Stack, Button, Box
 } from '@chakra-ui/react';
 import { Viewer, Worker } from '@react-pdf-viewer/core';
 
@@ -40,16 +40,18 @@ const Pdf = (): JSX.Element => {
               </a>
           </Stack>
       </Stack>
-      <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.6.347/build/pdf.worker.js">
-        <div style={{
-          height: '650px',
-          width: '900px',
-          marginLeft: 'auto',
-          marginRight: 'auto',
-        }}>
-          <Viewer fileUrl="/sample.pdf" />
-        </div>
-      </Worker>
+        <Box>
+            <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.6.347/build/pdf.worker.js">
+                <div style={{
+                    height: 'auto',
+                    width: 'auto',
+                    marginLeft: 'auto',
+                    marginRight: 'auto',
+                }}>
+                    <Viewer fileUrl="/sample.pdf" />
+                </div>
+            </Worker>
+        </Box>
     </Flex>
   );
 }

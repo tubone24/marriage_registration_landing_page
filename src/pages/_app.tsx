@@ -40,7 +40,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
           />
           <meta name="twitter:image" content="https://i.imgur.com/PXDvU3s.png" />
           <meta property="fb:app_id" content="280941406476272" />
-          <link rel="canonical" href="ttps://marriage-registration-landing-page.vercel.app/" />
+          <link rel="canonical" href="https://marriage-registration-landing-page.vercel.app/" />
           <link rel="apple-touch-icon" href={'https://i.imgur.com/PXDvU3s.png'} />
           <link rel="icon" href="/favicon.ico" />
         </Head>
