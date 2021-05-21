@@ -40,7 +40,7 @@ const Pdf = (): JSX.Element => {
               </a>
           </Stack>
       </Stack>
-        <Box>
+        <Box p={6}>
             <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.6.347/build/pdf.worker.js">
                 <div style={{
                     height: '650px',
