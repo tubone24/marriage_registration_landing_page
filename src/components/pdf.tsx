@@ -43,8 +43,8 @@ const Pdf = (): JSX.Element => {
         <Box>
             <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.6.347/build/pdf.worker.js">
                 <div style={{
-                    height: 'auto',
-                    width: 'auto',
+                    height: '650px',
+                    width: '1000px',
                     marginLeft: 'auto',
                     marginRight: 'auto',
                 }}>
