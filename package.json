@@ -19,7 +19,7 @@
     "@chakra-ui/react": "^1.6.1",
     "@emotion/react": "^11.1.5",
     "@emotion/styled": "^11.3.0",
-    "@react-pdf-viewer/core": "2.4.3",
+    "@react-pdf-viewer/core": "2.11.0",
     "@types/react-pdf": "^5.0.2",
     "babel-plugin-file-loader": "^2.0.0",
     "file-loader": "^6.2.0",
