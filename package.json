@@ -23,7 +23,7 @@
     "@types/react-pdf": "^5.0.2",
     "babel-plugin-file-loader": "^2.0.0",
     "file-loader": "^6.2.0",
-    "framer-motion": "^4.1.11",
+    "framer-motion": "4.1.17",
     "next": "10.2.0",
     "pdfjs-dist": "2.6.347",
     "react": "17.0.2",
